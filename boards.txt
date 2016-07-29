@@ -137,7 +137,7 @@ ATtiny13.menu.cpu.attiny13=ATtiny13/13A
 ATtiny13.menu.cpu.attiny13.upload.maximum_size=1024
 ATtiny13.menu.cpu.attiny13.upload.maximum_data_size=64
 ATtiny13.menu.cpu.attiny13.build.mcu=attiny13
-ATtiny13.menu.cpu.attiny13.build.variant=tiny8
+ATtiny13.menu.cpu.attiny13.build.variant=attiny13
 
 ATtiny13.menu.clock.internal9_6=Internal 9.6 MHz
 ATtiny13.menu.clock.internal9_6.bootloader.low_fuses=0x7a
