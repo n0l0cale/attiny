@@ -140,10 +140,10 @@ ATtiny13.menu.cpu.attiny13.build.mcu=attiny13
 ATtiny13.menu.cpu.attiny13.build.variant=tiny8
 
 ATtiny13.menu.clock.internal9_6=Internal 9.6 MHz
-ATtiny13.menu.clock.internal9_61.bootloader.low_fuses=0x7a
-ATtiny13.menu.clock.internal9_61.bootloader.high_fuses=0xff
-ATtiny13.menu.clock.internal9_61.bootloader.extended_fuses=0xff
-ATtiny13.menu.clock.internal9_61.build.f_cpu=9600000L
+ATtiny13.menu.clock.internal9_6.bootloader.low_fuses=0x7a
+ATtiny13.menu.clock.internal9_6.bootloader.high_fuses=0xff
+ATtiny13.menu.clock.internal9_6.bootloader.extended_fuses=0xff
+ATtiny13.menu.clock.internal9_6.build.f_cpu=9600000L
 
 ATtiny13.menu.clock.internal4_8=Internal 4.8 MHz
 ATtiny13.menu.clock.internal4_8.bootloader.low_fuses=0x79
