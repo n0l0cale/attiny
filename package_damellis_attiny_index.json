@@ -91,6 +91,28 @@
             {"name": "ATtiny44"},
             {"name": "ATtiny84"}
           ]
+        },
+	{
+          "name": "attiny",
+          "architecture": "avr",
+          "version": "1.0.3",
+          "category": "attiny",
+          "help": {
+            "online": ""
+          },
+          "url": "https://github.com/n0l0cale/attiny/archive/994e0ed6537b95ae770cfcf8cea93904c0b47024.zip",
+          "archiveFileName": "994e0ed6537b95ae770cfcf8cea93904c0b47024.zip",
+          "checksum": "SHA-256:1073eb16b840cada47d5f2f5b371faf96de6af0e779e55d685d7a728715a7a86",
+          "size": "7850",
+          "boards": [
+	    {"name": "ATtiny13"},
+            {"name": "ATtiny25"},
+            {"name": "ATtiny45"},
+            {"name": "ATtiny85"},
+            {"name": "ATtiny24"},
+            {"name": "ATtiny44"},
+            {"name": "ATtiny84"}
+          ]
         }
       ],
       "tools": []
