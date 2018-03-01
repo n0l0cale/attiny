@@ -125,40 +125,11 @@ ATtinyX4.menu.clock.external20.build.f_cpu=20000000L
 
 ################################################################################
 
-ATtiny13.name=ATtiny13/13A
-ATtiny13.bootloader.tool=arduino:avrdude
-ATtiny13.bootloader.unlock_bits=0xff
-ATtiny13.bootloader.lock_bits=0xff
-ATtiny13.build.core=arduino:arduino
-ATtiny13.build.board=attiny
-ATtiny13.upload.tool=arduino:avrdude
-
-ATtiny13.menu.cpu.attiny13=ATtiny13/13A
-ATtiny13.menu.cpu.attiny13.upload.maximum_size=1024
-ATtiny13.menu.cpu.attiny13.upload.maximum_data_size=64
-ATtiny13.menu.cpu.attiny13.build.mcu=attiny13
-ATtiny13.menu.cpu.attiny13.build.variant=attiny13
-
-ATtiny13.menu.clock.internal9_6=Internal 9.6 MHz
-ATtiny13.menu.clock.internal9_6.bootloader.low_fuses=0x7a
-ATtiny13.menu.clock.internal9_6.bootloader.high_fuses=0xff
-ATtiny13.menu.clock.internal9_6.bootloader.extended_fuses=0xff
-ATtiny13.menu.clock.internal9_6.build.f_cpu=9600000L
-
-ATtiny13.menu.clock.internal4_8=Internal 4.8 MHz
-ATtiny13.menu.clock.internal4_8.bootloader.low_fuses=0x79
-ATtiny13.menu.clock.internal4_8.bootloader.high_fuses=0xff
-ATtiny13.menu.clock.internal4_8.bootloader.extended_fuses=0xff
-ATtiny13.menu.clock.internal4_8.build.f_cpu=4800000L
-
-ATtiny13.menu.clock.internal1_2=Internal 1.2 MHz
-ATtiny13.menu.clock.internal1_2.bootloader.low_fuses=0x6a
-ATtiny13.menu.clock.internal1_2.bootloader.high_fuses=0xff
-ATtiny13.menu.clock.internal1_2.bootloader.extended_fuses=0xff
-ATtiny13.menu.clock.internal1_2.build.f_cpu=1200000L
-
-ATtiny13.menu.clock.internal0_128=Internal 128 kHz
-ATtiny13.menu.clock.internal0_128.bootloader.low_fuses=0x7b
-ATtiny13.menu.clock.internal0_128.bootloader.high_fuses=0xff
-ATtiny13.menu.clock.internal0_128.bootloader.extended_fuses=0xff
-ATtiny13.menu.clock.internal0_128.build.f_cpu=128000L
+attiny13.name=ATtiny13 (internal 1.2 MHz clock)
+attiny13.bootloader.low_fuses=0x6a
+attiny13.bootloader.high_fuses=0xff
+attiny13.upload.maximum_size=1024
+attiny13.build.mcu=attiny13
+attiny13.build.f_cpu=1200000L
+attiny13.build.core=arduino:arduino
+attiny13.build.variant=tiny13
